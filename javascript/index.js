@@ -83,6 +83,7 @@ function increment(event) {
     var priceTag = trElt.querySelector(".price");
     var priceValue = Number(priceTag.innerHTML);
     priceValue = quantityValue * unitPriceValue;
+    
     priceTag.innerHTML = priceValue;
 
 }
